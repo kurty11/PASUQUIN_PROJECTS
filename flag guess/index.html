@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guess the Flag</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <style>
+    body {
+      text-align: center;
+      font-size: 18px; 
+      background-color: #f5f5f5; 
+    }
+
+    .flag {
+      width: 300px; 
+      height: 150px;
+      margin: 20px auto; 
+      cursor: pointer;
+    }
+
+    h1 {
+      margin-top: 30px; 
+      font-family: "Times New Roman", Times, serif; 
+      font-size: 24px; 
+    }
+
+    #result {
+      font-family: Verdana, Geneva, sans-serif; 
+      font-size: 20px; 
+    }
+
+    #legend {
+      font-size: 1em; 
+      margin-top: 30px; 
+      margin-bottom: 30px; 
+      color: gray;
+    }
+
+    #guess-input {
+      width: 400px; 
+      margin-bottom: 20px; 
+      font-size: 18px; 
+    }
+
+    #guesses-container {
+      font-size: 20px; 
+      margin-bottom: 20px; 
+    }
+
+    #score-container {
+      font-size: 20px; 
+      margin-bottom: 20px; 
+      color: orange; 
+    }
+  </style>
+</head>
+<body>
+  
+<h1>Guess the Flag</h1>
+
+<div id="flag-container"></div>
+<div id="guesses-container"></div> 
+<div id="score-container"></div> 
+<input type="text" id="guess-input">
+<div id="submit-clear-container">
+  <button id="submit-button">Submit Guess</button>
+  <button id="clear-button">Clear Result</button>
+</div>
+<div id="result"></div>
+<div id="legend">Note: Use all capital letters for acronyms like "USA",etc. <br>
+and always use capital letter for the first letter => for example "Japan"</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,40 @@
+body {
+  text-align: center;
+  font-size: 18px; 
+  background-image: linear-gradient(to bottom right, #EFBC9B, #FBF3D5, #D6DAC8, #9CAFAA); 
+  width: 100vw; 
+  height: 100vh; 
+  margin: 0; 
+  padding: 0; 
+}
+
+.flag {
+  width: 300px; 
+  height: 150px; 
+  margin: 20px auto; 
+  cursor: pointer;
+}
+
+h1 {
+  margin-top: 30px; 
+  font-family: "Times New Roman", Times, serif; 
+  font-size: 24px;
+}
+
+#result {
+  font-family: Verdana, Geneva, sans-serif; 
+  font-size: 20px; 
+}
+
+#legend {
+  font-size: 1em;
+  margin-top: 30px; 
+  margin-bottom: 30px; 
+  color: gray;
+}
+
+#guess-input {
+  width: 400px; 
+  margin-bottom: 20px; 
+  font-size: 18px; 
+}
